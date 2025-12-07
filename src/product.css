@@ -1,6 +1,12 @@
 .product {
-  border: 1px solid #000000;
-  border-radius: 14px;
-  margin-bottom: 15px;
-  padding: 0 15px 0 15px;
+  width: 350px; /* all cards same width */
+  min-height: 260px; /* force equal height */
+  border: 1px solid black;
+  border-radius: 12px;
+  padding: 20px;
+  background: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* keeps spacing even */
 }
